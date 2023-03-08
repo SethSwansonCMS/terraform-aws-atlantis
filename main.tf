@@ -85,7 +85,11 @@ locals {
     {
       name  = "ATLANTIS_WRITE_GIT_CREDS"
       value = var.atlantis_write_git_creds
-    }
+    },
+    {
+      name  = "INFRACOST_API_KEY"
+      value = var.atlantis_write_git_creds
+    },
   ]
 
   # ECS task definition
