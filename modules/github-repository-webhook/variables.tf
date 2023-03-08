@@ -38,3 +38,15 @@ variable "webhook_secret" {
   type        = string
   default     = ""
 }
+
+variable "webhook_insecure_ssl" {
+  description = "Allow insecure SSL for the webhook"
+  type        = bool
+  default     = false
+}
+
+variable "infracost_api_key" {
+  description = "API key for infracost integration"
+  type        = string
+  default     = ""
+}
