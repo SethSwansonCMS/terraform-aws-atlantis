@@ -776,5 +776,5 @@ variable "alb_enable_cross_zone_load_balancing" {
 variable "infracost_api_key" {
   description = "API Key Used for authenticating to Infracost for cost projections"
   type        = string
-  default     = "false"
+  default     = ""
 }

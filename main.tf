@@ -88,7 +88,7 @@ locals {
     },
     {
       name  = "INFRACOST_API_KEY"
-      value = var.atlantis_write_git_creds
+      value = var.infracost_api_key
     },
   ]
 
